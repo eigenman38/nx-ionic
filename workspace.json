@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "nx-ionic-poker": "apps/nx-ionic-poker",
+    "nx-ionic-poker-e2e": "apps/nx-ionic-poker-e2e"
+  }
 }

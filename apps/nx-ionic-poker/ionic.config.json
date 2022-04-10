@@ -1,0 +1,7 @@
+{
+  "name": "nx-ionic-poker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
