@@ -15,7 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-ionic/mobile/home/feature": ["libs/mobile/home/feature/src/index.ts"]
+      "@nx-ionic/mobile/home/feature": [
+        "libs/mobile/home/feature/src/index.ts"
+      ],
+      "@nx-ionic/mobile/shell/feature": [
+        "libs/mobile/shell/feature/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

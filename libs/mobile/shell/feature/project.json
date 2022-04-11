@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/mobile/shell/feature",
+  "sourceRoot": "libs/mobile/shell/feature/src",
+  "prefix": "nx-ionic",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/mobile/shell/feature"],
+      "options": {
+        "jestConfig": "libs/mobile/shell/feature/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/mobile/shell/feature/src/**/*.ts",
+          "libs/mobile/shell/feature/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

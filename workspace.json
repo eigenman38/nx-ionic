@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "mobile-home-feature": "libs/mobile/home/feature",
+    "mobile-shell-feature": "libs/mobile/shell/feature",
     "nx-ionic-poker": "apps/nx-ionic-poker",
     "nx-ionic-poker-e2e": "apps/nx-ionic-poker-e2e"
   }
